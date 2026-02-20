@@ -3,17 +3,20 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class get_user {
+
+public class Delete_User {
 	
-	public static Response get_userDetails(String username)
+	public Response DeleteUser(String username)
 	{
-	Response response =
+		Response response =
 			RestAssured
 				.given()
-					.accept(ContentType.JSON)
 					.contentType(ContentType.JSON)
 					.pathParam("username", username)
-				.get(Routes.get_url);
+				.when()
+					.delete(Routes.delete_url);
 			return response;
+				
 	}
+
 }

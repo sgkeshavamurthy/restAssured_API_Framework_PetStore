@@ -1,21 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-18T21:40:50 IST" name="Default suite" finished-at="2026-02-18T21:40:55 IST" duration-ms="5072">
+  <suite started-at="2026-02-20T18:59:36 IST" name="Default suite" finished-at="2026-02-20T18:59:42 IST" duration-ms="5753">
     <groups>
     </groups>
-    <test started-at="2026-02-18T21:40:50 IST" name="Default test" finished-at="2026-02-18T21:40:55 IST" duration-ms="5072">
-      <class name="api.testcases.User_Testcases">
-        <test-method is-config="true" signature="createSyntheticData()[pri:0, instance:api.testcases.User_Testcases@217ed35e]" started-at="2026-02-18T21:40:50 IST" name="createSyntheticData" finished-at="2026-02-18T21:40:51 IST" duration-ms="328" status="PASS">
+    <test started-at="2026-02-20T18:59:36 IST" name="Default test" finished-at="2026-02-20T18:59:42 IST" duration-ms="5753">
+      <class name="api.testcases.User_DDTestCases">
+        <test-method signature="load_Data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.User_DDTestCases@41d477ed]" started-at="2026-02-20T18:59:37 IST" name="load_Data" data-provider="dataForPOST" finished-at="2026-02-20T18:59:37 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GauriB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gauri]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[gauri@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createSyntheticData -->
-        <test-method signature="test_createUser()[pri:0, instance:api.testcases.User_Testcases@217ed35e]" started-at="2026-02-18T21:40:51 IST" name="test_createUser" finished-at="2026-02-18T21:40:55 IST" duration-ms="4678" status="PASS">
+        </test-method> <!-- load_Data -->
+        <test-method signature="load_Data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.User_DDTestCases@41d477ed]" started-at="2026-02-20T18:59:37 IST" name="load_Data" data-provider="dataForPOST" finished-at="2026-02-20T18:59:37 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EshwariS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eshwari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sampige]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Eshwari@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8987]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_createUser -->
-      </class> <!-- api.testcases.User_Testcases -->
+        </test-method> <!-- load_Data -->
+        <test-method signature="load_Data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.User_DDTestCases@41d477ed]" started-at="2026-02-20T18:59:37 IST" name="load_Data" data-provider="dataForPOST" finished-at="2026-02-20T18:59:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RamaM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rama]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mysore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rama@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Data -->
+        <test-method signature="load_Data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.User_DDTestCases@41d477ed]" started-at="2026-02-20T18:59:37 IST" name="load_Data" data-provider="dataForPOST" finished-at="2026-02-20T18:59:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KrishnaT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tumkur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Krishna@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Data -->
+        <test-method signature="load_Data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.User_DDTestCases@41d477ed]" started-at="2026-02-20T18:59:37 IST" name="load_Data" data-provider="dataForPOST" finished-at="2026-02-20T18:59:37 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AnantaM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ananta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mandya]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ananta@example]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Data -->
+        <test-method signature="POSTRequest()[pri:2, instance:api.testcases.User_DDTestCases@41d477ed]" started-at="2026-02-20T18:59:37 IST" name="POSTRequest" finished-at="2026-02-20T18:59:42 IST" duration-ms="4472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POSTRequest -->
+      </class> <!-- api.testcases.User_DDTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

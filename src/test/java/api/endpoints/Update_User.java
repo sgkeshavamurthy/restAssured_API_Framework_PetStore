@@ -1,19 +1,20 @@
 package api.endpoints;
+import api.payloads.createUser_Payload;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class get_user {
+public class Update_User {
 	
-	public static Response get_userDetails(String username)
+	public Response updateUser(String username, createUser_Payload payload)
 	{
-	Response response =
+		Response response =
 			RestAssured
 				.given()
-					.accept(ContentType.JSON)
 					.contentType(ContentType.JSON)
 					.pathParam("username", username)
-				.get(Routes.get_url);
-			return response;
+					.body(payload)
+				.put(Routes.put_url);
+		return response;
 	}
 }
