@@ -5,7 +5,7 @@
     <classes>
       <class name="api.testcases.User_DDTestCases">
         <methods>
-          <include name="load_Data" invocation-numbers="5"/>
+          <include name="test_POSTrequest" invocation-numbers="0 1 2 3 4"/>
         </methods>
       </class> <!-- api.testcases.User_DDTestCases -->
     </classes>
